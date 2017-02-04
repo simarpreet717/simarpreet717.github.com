@@ -1,0 +1,771 @@
+<html>
+	<head>
+		<style>
+    *{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.wrapper
+{
+	width:100%;
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+.topbar
+{
+	background-color:#168DC5;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.topbar-left
+{
+	width:50%;
+	float:left;
+	padding:12px;
+	overflow: hidden;
+	padding-bottom: 0px;
+
+}
+.topbar-right
+{
+	width:50%;
+	float:right;
+}
+#contact
+{
+	margin-left:113px;
+	color:white;
+	float: left;
+	cursor: pointer;
+}
+.circle
+{
+	width:8px;
+	height:8px;
+	border-radius: 50%;
+	background-color:#11709D;
+	margin-left: 10px;
+	margin-top: 4px;
+	float: left;
+}
+#number
+{
+	margin-left: 10px;
+	color:white;
+	float: left;
+}
+.box
+{
+	margin-left:10px;
+	float: left;
+	padding: 9px;
+	padding-left:40px;
+	background-color: #2199D2;
+	width:220px;
+	margin-top: -12px;
+	cursor: pointer;
+}
+#text
+{
+	color:white;
+	font-size: 18px;
+
+}
+.top-menu
+{
+	float: right;
+}
+ul
+{
+	margin-right: 143px;
+	margin-top: 12px;
+
+}
+li
+{
+	display: inline;
+	list-style: none;
+	color: white;
+	padding:8px;
+	border-left:1px dotted  #606c71;
+	cursor: pointer;
+}
+li:first-child
+{
+	border:none;
+}
+.header
+{
+	width:100%;
+	padding-bottom: 7px;
+}
+.header-left
+{
+	float:left;
+	width:50%;
+}
+.header-right
+{
+	float: right;
+	width:50%;
+}
+.logo-img
+{
+	margin-left: 125px;
+	margin-top:7px;
+}
+img
+{
+	width:120px;
+	height:102px;
+	cursor: pointer;
+}
+.right-text
+{
+	float: right;
+	margin-top: 13px;
+}
+span
+{
+	color: #168dc5;
+    font-size: 18px;
+    margin-right: 142px;
+    line-height: 25px;
+    font-weight: 500;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+
+}
+.span2
+{
+	color: #606c71;
+	margin-left: 84px;
+	
+}
+.menu
+{
+	width: 100%;
+	background-color: #157FB6;
+	padding: 15px;
+}
+.menu-ul
+{
+	margin-left:185px;
+	margin-top: 2px;
+}
+.menu-ul li
+{
+	font-family: "", Arial, Helvetica, sans-serif;
+	display: inline;
+	list-style: none;
+	color: white;
+	padding:12px;
+	font-size: 14px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+}
+.slider
+{
+	width:100%;
+
+}
+.slide
+{
+	position: relative;
+}
+.text2
+{
+	position: absolute;
+	top: 120px;
+	left:120px;
+}
+.lbl
+{
+	color: rgb(17, 97, 138);
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.lbl2
+{
+	color: #000;
+    font-size: 24px;
+    line-height: 38px;
+}
+.btn2
+{
+	background-color: black;
+	width: 50px;
+	color:white;
+	cursor: pointer;
+	height:60px;
+	position: absolute;
+	top: 160px;
+	left:0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	opacity: 0.5;
+}
+.btn3
+{
+	padding-top: 20px;
+	padding-left: 25px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	opacity:0.5;	
+	width: 50px;
+	height: 60px;
+	position: absolute;
+	top: 160px;
+	right:0px;
+}
+.searchbar
+{
+	width:100%;
+	background-color: #168DC5;
+	background-image: url(16.png);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 25px;
+}.bar
+{
+	padding-left: 105px;
+
+}
+input[type=text]
+{
+	width:872px;
+	height: 45px;
+}
+#search-btn
+{
+	width:210px;
+	height:43px;
+	background-color: #FF9900;
+	margin-left: 5px;
+	color: white;
+	font-size: 18px;
+	border: none;
+}
+input[type=checkbox]
+{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#lbl3
+{
+	color:white;
+	font-size: 18px;
+	font-weight: 100;
+}
+.body
+{
+	width: 100%;
+
+}
+.body-left
+{
+	float: left;
+	width: 50%;
+}
+.body-right
+{
+	float: right;
+	width: 50%;
+}
+.body-img
+{
+	margin-left: 125px;
+}
+h1
+{
+	font-family: open sans;
+    color: rgb(19, 127, 179);
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 100;
+}
+.body-text
+{
+	width:79%;
+	margin-top: 90px;
+	margin-left: 20px;
+}
+.p1
+{
+	font-size: 17px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #606c71;
+}
+.services
+{
+	width:100%;
+	background-position: left top;
+    background-repeat: repeat;
+    padding-top: 20px;
+}
+.services-box
+{
+	width:100%;
+}
+
+.box1
+{
+	float: left;
+	min-height: 300px;
+	width: 23%;
+	border: 1px solid grey;
+	margin:21px;
+	margin-top: 80px;
+	background-color: white;
+}
+.box2
+{
+	float: left;
+	min-height: 300px;
+	width: 23%;
+	border: 1px solid grey;
+	margin:21px;
+	margin-left: 0px;
+	margin-top: 80px;
+	background-color: white;
+
+}
+
+.box1-inner
+{
+	padding: 10px;
+	margin: 60px;
+	margin-top: -23px;
+	margin-bottom: 10px;
+	border: 1px solid;
+	text-align: center;
+	color: white;
+	background:#11618A;
+
+
+}
+#content1
+{
+	text-align: justify;
+	padding: 10px;
+	padding-top: -10px;
+	color: black;
+}
+h2{
+	font-weight: 100;
+	font-size: 18px;
+}
+.hiring-menu
+{
+	width:100%;
+	background-color: #ffffff;
+    background-image:url(bg-3.png);
+    margin-top: 40px;
+    background-position: left top;
+    background-repeat: repeat;
+    
+}
+.hiring-menu-left
+{
+	float: left;
+	width:50%;
+}
+.hiring-menu-right
+{
+	float: right;
+	width:50%;
+}
+.hiring-text
+{
+	margin-left: 200px;
+	margin-top: 100px;
+	line-height: 45px;
+    text-align: center;
+    font-size: 40px;
+}
+.hiring-text h1
+{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #606c71;
+}
+#apply
+{
+	width:130px;
+	height:40px;
+	border:none;
+	margin-top: -40px;
+    background: rgb(43, 165, 223) linear-gradient(to top, rgb(22, 141, 197), rgb(43, 165, 223)) repeat scroll 0% 0%;
+    color:white;
+    font-size: 18px;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    cursor: pointer;
+}
+.hiring-img
+{
+	margin-left: 150px;
+}
+.img-hiring
+{
+	width:350px;
+	height:400px;
+	cursor:default;
+
+}
+.footer
+{
+	width:100%;
+	background-image: url(07.png);
+    background-repeat: repeat;
+    background-color: #168DC5;
+    background-position: center top;
+    color: white;
+    padding:30px;
+    padding-left: 130px;
+}
+.footer-left
+{
+	width:25%;
+	float: left;
+}
+.footer-left-center
+{
+	width:25%;
+	float: left;
+}
+.footer-right-center
+{
+	width:25%;
+	float: left;
+}
+.footer-right
+{
+	width:25%;
+	float: left;
+}
+.footer ul
+{
+	margin-right: 0px;
+
+	margin-top: 0px;
+}
+.footer li
+{
+	border:none;
+	color:#DDDDDD;
+    border-bottom: 1px solid #535151;
+    margin-right: 40px;
+    display: block;
+    font-size: 15px;
+	padding: 10px;
+	cursor: default;
+}
+.footer li:first-child
+{
+	padding-top: 0px;
+}
+.footer h2
+{
+	color: #DDDDDD;
+    font-size: 20px;
+    font-weight: 100;
+    padding:10px;
+}
+.footer a 
+{
+	cursor: pointer;
+}
+.footer a:hover
+{
+	color:white;
+}
+.copyright
+{
+	width:100%;
+	background-color: black;
+}
+.copyright-content
+{
+	padding: 20px;
+}
+.copyright span 
+{
+	font-size: 15px;
+	margin-left: 100px;
+	color: #DDDDDD;
+}
+.copyright a 
+{
+   color: #8C8989;
+   cursor: pointer;
+}
+.copyright a:hover 
+{
+	color:#168DC5;
+}
+</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+		<title>Home | OXO Solutions</title>
+	</head>
+	<body>	
+		<div class="wrapper">
+			<div class="topbar">
+				<div class="topbar-left">
+					<a id="contact">contact@oxosolutions.com</a>
+					<div class="circle">
+					</div>
+					<a id="number">+91-9501010103</a>
+					<div class="circle">
+					</div>
+					<div class="box">
+						<a id="text">WE ARE HIRING</a>
+					</div>
+				</div>
+				<div class="topbar-right">
+					<div class="top-menu">
+						<ul>
+							<li>Support</li>
+							<li>Sitemap</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;">
+				</div>
+			</div>
+
+			<div class="header">
+				<div class="header-left">
+					<div class="logo-img">
+						<img src="logo.svg">
+						<img src="capture.png" style="width:320px;">
+				</div>
+				</div>
+				<div class="header-right">
+					<div class="right-text">
+						<p><span class="span1"> Empowering small to large businesses since 2008  </span></p>
+						<p><span class="span2"> Fulfilling all your IT needs at single stop  </span></p>
+						<p style="margin-left: 315px;">
+							<i class="fa fa-facebook"  style="font-size:30px; background-color:#3B5998; width: 36px;height:36px;color:white;text-align: center;margin-top: 7px;padding-top: 4px;"></i>
+							<i class="fa fa-twitter"  style="font-size:30px; background-color:#55ACEE; width: 36px;height:36px;color:white;text-align: center;margin-top: 7px;padding-top: 4px;margin-left: 2px;"></i>
+						</p>
+					</div>
+				</div>
+				<div style="clear: both;">
+				</div>
+			</div>
+
+			<div class="menu">
+				<div class="menu-list">
+					<ul class="menu-ul">
+						<li>About</li>
+						<li>Domains</li>
+						<li>Hosting</li>
+						<li>Products</li>
+						<li>Services</li>
+						<li>Blog</li>
+						<li>Career</li>
+						<li>Support</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="slider">
+				<div class="slide">
+					<img src="15789087892_93ff21d90f_b.jpg" style="width: 100%;height:60%;cursor:default;">
+					<div class="text2">
+					<label class="lbl">Digital Marketing</label><br>
+					<label class="lbl2">We help brands to optimize their Digital Marketing <br>performance!</label>
+					</div>
+					<div class="btn2">
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</div>
+					<div class="btn3">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="searchbar">
+				<div class="bar">
+					<input type="text" placeholder="Search Domain Name" style="font-size: 17px;" />
+					<button id="search-btn">Search</button>
+					<br>
+					<input type="checkbox" checked="" /><label id="lbl3">.com</label>
+					<input type="checkbox"/><label id="lbl3">.in</label>
+					<input type="checkbox"/><label id="lbl3">.net</label>
+					<input type="checkbox"/><label id="lbl3">.org</label>
+				</div>
+			</div>
+
+			<div class="body">
+				<div class="body-left">
+					<div class="body-img">
+						<img src="oxo-feature-new1.png" style="width: 530px; height: 480px;">
+					</div>
+				</div>
+				<div class="body-right">
+					<div class="body-text">
+						<h1>About OXO solutions</h1><br>
+						<p class="p1">OXO Solutions is a leading IT company of India, providing various web solutions to clients worldwide. We have skilled team of web designers, internet marketing experts, programmers who always work with your needs and requirements. OXO Solutions delivering wide range of proficient and inexpensive web solutions which includes website designing, web application development, internet marketing and e-commerce solutions for the small and large business globally across USA, UK, Dubai, Canada, Australia and India.</p>
+					</div>
+				</div>
+				<div style="clear: both;">
+				</div>
+			</div>
+
+			<div class="services">
+				<h1 style="color: rgb(19, 127, 179);    font-family: Arial, Helvetica, sans-serif;line-height: 36px;font-weight: normal;font-size: 36px;">SERVICES</h1>
+				<div class="services-box">
+					<div class="box1">
+						<div class="box1-inner">
+							<h2>E-Commerce</h2>
+						</div>
+						<p id="content1">Ecommerce is the activity of doing business on the Internet. It involves buying and selling products and services on the World Wide Web. As a professional ecommerce website development company, OXO Solutions, offers a full range of specialized ecommerce solutions to organizations.
+                        </p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+						<h2>Web Hosting</h2>
+						</div>
+						<p id="content1">Our shared website hosting plan is the quickest and most affordable way to get your website online. It's powerful, feature-rich, and near-limitless capacity makes it perfect for entry-level websites, blogs, portfolios, and small business websites.It also provides many additional features also.</p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+							<h2>SEO</h2>
+						</div>
+						<p id="content1">Many companies depend upon various advertising models like Pay Per Click to gain higher search engine rankings. However, Organic SEO utilizes various complex methods and techniques to obtain higher rankings naturally. Organic SEO involves the process of making changes to the website pages.</p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+							<h2>VPS Hosting</h2>
+						</div>
+						<p id="content1">
+                        Now with solid state drives (SSDs), our Virtual Private Servers give developers, designers and businesses more power, speed and stability to successfully run their websites and applications. If you’re a business experiencing high traffic to your site, a developer running a complex application. </p>
+					</div>
+					<br>
+					<div class="box1">
+						<div class="box1-inner">
+							<h2>Logo Design</h2>
+						</div>
+						<p id="content1">
+                        OXO Solutions believes that designing a corporate identity goes a long way in establishing a long term impression about yourself, your business and your company. Your corporate identity conveys a strong message to the communities and people you interact with. </p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+							<h2>Dedicated Servers</h2>
+						</div>
+						<p id="content1">
+                        Some of us were raised to share and some of us were raised...to be winners. Get an entire server to yourself for the ultimate in control, power and security. Our dedicated server experts will keep all server software up to date and helps to maintain the system effectively and efficiently .</p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+							<h2>Domain Names</h2>
+						</div>
+						<p id="content1">
+                        We have evolved as true professional software company after successfully completing numerous client projects. We develop solutions that best meet business objectives of our clients and ensure long term value. Our solutions help you organize business and technology strategies cost effectively.</p>
+					</div>
+					<div class="box2">
+						<div class="box1-inner">
+							<h2>Web Development</h2>
+						</div>
+						<p id="content1">
+                        OXO Solutions is an integrated web development company. We have the expertise, experience and ability to solve complex business problems by understanding your business goals and strategic & marketing objectives by utilizing our technical knowledge, domain expertise, methodological processes, etc.</p>
+					</div>
+					<div style="clear: both;">
+					</div>
+				</div>
+			</div>
+
+			<div class="hiring-menu">
+				<div class="hiring-menu-left">
+					<div class="hiring-text">
+						<h1>We are hiring for Web Designer,Web developer</h1>
+						<br><button id="apply">Apply Now</button>
+					</div>
+				</div>
+				<div class="hiring-menu-right">
+					<div class="hiring-img">
+						<img src="hire-new.png" class="img-hiring">
+					</div>
+				</div>
+			    <div style="clear:both;">
+			    </div>
+			</div>
+
+			<div class="footer">
+				<div class="footer-left">
+					<h2>SERVICES</h2>
+					<br>
+					<ul>
+						<li><a>Web Design</a></li>
+						<li><a>Logo Design</a></li>
+						<li><a>Web Development</a></li>
+						<li><a>E-Commerce</a></li>
+						<li><a>CMS Custommization</a></li>
+						<li><a>SEO</a></li>
+						<li><a>Software Development</a></li>
+					</ul>
+				</div>
+				<div class="footer-left-center">
+					<h2>PORTFOLIO</h2>
+					<br>
+					<ul>
+						<li><a>Web Design Portfolio</a></li>
+						<li><a>Logo Design Portfolio</a></li>
+						<li><a>Web Development Portfolio</a></li>
+						<li><a>E-Commerce Portfolio</a></li>
+						<li><a>CMS Custommization Portfolio</a></li>
+						<li><a>SEO Portfolio</a></li>
+						<li><a>Software Development Portfolio</a></li>
+					</ul>
+				</div>
+				<div class="footer-right-center">
+					<h2>POLICIES</h2>
+					<br>
+					<ul>
+						<li><a>FAQ's</a></li>
+						<li><a>Newsletter</a></li>
+						<li><a>Testimonials</a></li>
+						<li><a>Privacy Policy</a></li>
+						<li><a>Hosting and Server Policy</a></li>
+						<li><a>Terms and Conditions</a></li>
+						<li><a>Employee Verification</a></li>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<h2>CONTACT US</h2>
+					<br>
+					<ul>
+						<li><a>Contact</a></li>
+						<li><a>My Account</a></li>
+						<li><a>Apply Online</a></li>
+						<li><a>OXO Franchise</a></li>
+						<li><a>Support</a></li>
+						<li><a>Affiliate</a></li>
+						<li><a>Training</a></li>
+					</ul>
+				</div>
+				<div style="clear:both;">
+				</div>
+			</div>
+
+			<div class="copyright">
+				<div class="copyright-content">
+					<span>
+						©2015 <a>OXO IT SOLUTIONS PRIVATE LIMITED.</a> All rights reserved. <a>DARLIC™ </a>is a registered trademark of <a>OXO IT SOLUTIONS PVT LTD.</a>
+					</span>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
