@@ -336,15 +336,17 @@ p
 	width:40%;
 	margin:0 auto;
 }
-.contact-box p
+.contact-name
 {
-	color:#514F4F;
+	background-color: #f9f9f9;
+	border: none;
+	width: 100%;
 	border-bottom: 1px solid #9D9D9D;
 	padding-bottom:20px;
-}
-.contact-box p:nth-child(3)
-{
-	padding-bottom:100px;
+	font-size: 15px;
+    	line-height: 30px;
+    	margin-top: 20px;
+    	color: #514F4F;
 }
 .contact-btn
 {
@@ -356,7 +358,6 @@ p
 	color:white;
 	transition: all 500ms ease-in-out;
 	cursor: pointer;
-
 }
 .contact-btn:hover
 {
@@ -507,11 +508,11 @@ p
 				<h1>CONTACT</h1>
 			</div>
 			<div class="contact-box">
-				<p>Name</p>
-				<p>E-Mail</p>
-				<p>Message</p>
+				<input type="text" name="text" class="contact-name" placeholder="Name">
+				<input type="E-Mail" name="E-Mail" class="contact-name" placeholder="E-Mail">
+				<textarea cols="25" placeholder="Message" class="contact-name" rows="5"></textarea> 
 				<div class="about-heading">
-					<button class="contact-btn">Send</button>
+					<button class="contact-btn" onclick="alertmessage()">Send</button>
 				</div>
 			</div>
 		</div>
@@ -559,5 +560,11 @@ p
 			}
  		});
 	});
+</script>
+<script>
+	function alertmessage()
+	{
+		alert("Thank you for sending message");
+	}
 </script>
 </html>
